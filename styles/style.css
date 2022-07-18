@@ -9,14 +9,20 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
 }
 
+/*--------------- 
+section container 
+------------------*/
 .container {
     background-color: #FFFFFF;
     width: 870px;
-    height: 679px;
     padding: 30px;
+    margin-bottom: 21px;
+    padding: 10px;
 }
 
 .players {
@@ -57,5 +63,98 @@ main {
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 
+}
+
+/*----------------
+ Top blogs section -------------*/
+
+.thumbnail img {
+    height: 127px;
+    width: 224px;
+    margin-right: 16px;
+}
+
+.blogs {
+    display: flex;
+
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog-author {
+    font-size: 16px;
+    color: #9F9F9F;
+
+}
+
+.blog-author a {
+    color: #562EFF;
+    text-decoration: none;
+}
+
+.blog-title h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+
+
+.course-title {
+    font-size: 20.03px;
+}
+
+.course-author {
+    color: #ED6B4F;
+    font-size: 14.69px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.icon {
+    margin-left: 1px;
+}
+
+.fa-star {
+    color: #FFC014;
+    font-size: 12px;
+}
+
+#grey-star {
+
+    color: #AEAEAE;
+}
+
+
+.clock {
+    display: flex;
+}
+
+.flexible-container {
+    width: 252px;
+    height: 270px;
+    background-color: #FFFFFF;
+}
+
+.rating {
+    color:
+        #A2A2A2;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 1px;
 }
