@@ -103,6 +103,14 @@ hr {
     margin-bottom: 6px;
 }
 
+.course-details {
+    width: 252px;
+    height: 270px;
+    border: 0.5px;
+    box-shadow: 10px #F3F1FF;
+    border-radius: 14px;
+}
+
 .course-banner img {
     width: 224px;
     height: 104px;
@@ -146,9 +154,14 @@ hr {
 }
 
 .flexible-container {
-    width: 252px;
-    height: 270px;
-    background-color: #FFFFFF;
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-column-gap: 23px;
+
+
 }
 
 .rating {
@@ -156,5 +169,5 @@ hr {
         #A2A2A2;
     font-size: 14px;
     font-weight: 400;
-    margin-left: 1px;
+
 }
