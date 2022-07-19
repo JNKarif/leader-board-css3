@@ -171,3 +171,36 @@ hr {
     font-weight: 400;
 
 }
+
+/* responsive for mobile */
+@media screen and (max-width:668px) {
+    .container {
+        width: 100%
+    }
+
+    .players,
+    .article-container,
+    .flexible-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .player,
+    .blogs {
+        flex-direction: column;
+    }
+}
+
+/* Responsive for Ipad */
+@media screen and (min-width:689px) and (max-width:992px) {
+    .container {
+        width: 100%
+    }
+
+    .players,
+    .article-container,
+    .flexible-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+}
